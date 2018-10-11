@@ -1,0 +1,100 @@
+#navbar {
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+	border-radius: 0;
+	margin-bottom: 0;
+	min-height: 32px;
+}
+
+#navlinks {
+	list-style-type: none;
+}
+
+#navlinks li{
+	display: inline;
+	margin-left:16px;
+}
+
+#navlinks li a{
+	text-decoration: none;
+}
+
+#banner {
+	padding-top:67px;
+	background-image: url('../img/banner.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	min-height: 600px;
+}
+
+#headshot {
+	margin-top:100px;
+	width: 256px;
+	height: 256px;
+	border-radius: 50%;
+}
+
+#banner__text{
+	color:white;
+}
+
+#about {
+	padding-top:67px;
+}
+
+#about__text{
+	width: 600px;
+}
+
+#projects {
+	padding-top: 67px;
+}
+
+#projects__img{
+	margin: 16px auto;
+	max-width: 900px;
+}
+
+#projects img{
+	height: 155px;
+	width: 400px;
+	object-fit: contain;
+}
+
+#project__title {
+	width: 400px;
+}
+
+#otc{
+	border: 2px solid rgba(0, 0, 0, .3);
+	border-radius: 5px;
+}
+
+#skills {
+	padding-top:67px;
+	max-width: 900px;
+	margin: 0 auto;
+	margin-bottom: 150px;
+}
+
+#skills__list{
+	list-style-type: none;
+}
+
+#skills__list li{
+	margin: 16px;
+	display: inline;
+}
+
+#tech__icon{
+	display: inline;
+}
+
+#tech__icon img{
+	width: 96px;
+	height: 96px;
+	display: inline;
+}
+
+
